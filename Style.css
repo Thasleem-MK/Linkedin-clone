@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.Nav{
+    width: 100%;
+    max-height: 52px;
+    display: flex;
+}
+.Nav-bar{
+    /* max-height: 52px; */
+    height: 52px;
+    width: 100%;
+    max-width: 1128px;
+    margin-top:0.78125vw;
+    margin-left: 12.734375vw;
+    margin-right: 12.734375vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.Nav-bar1{
+    width: 40%;
+    height: 95%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2.05078125vw;
+    font-weight: 700;
+    align-items: center;
+    overflow: hidden;
+}
+.Nav-bar1 a{
+    /* flex-grow: 1; */
+    height: inherit;
+    width: 100%;
+    text-decoration: none;
+    color: #0a66c2;
+}
+span{
+    height: 75.5%;
+    width: 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    background-color: #0a66c2;
+    position: relative;
+    font-size: 2.05078125vw;
+    top: -37px;
+    left: 100px;
+    border-radius: 4px;
+}
+.Nav-bar2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.Nav-bar2 a{
+    flex-grow: 1;
+    text-decoration: none;
+}
+.Nav-bar2 div{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    color: gray;
+}
+.Nav-bar2 i{
+    position: relative;
+    top: 4px;
+    flex-grow: 1;
+    font-size: 20px;
+}
+.Nav-bar2 div:hover{
+    color: black;
+}
+.Nav-bar2 p{
+    font-size: 12px;
+    position: relative;
+    display: inline;
+    height: 0px;
+    top: -6px;
+}
+.Get-the-app{
+    border-left: 1px solid;
+    border-color: rgb(114, 114, 114);
+    border-right: 1px solid;
+}
+.Nav-bar3{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(174, 122, 44); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Join-now{
+    height: 80%;
+    width: 40%;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.Join-now:hover{
+    background-color: rgb(242, 242, 242);
+}
+.Sign-in{
+    height: 85%;
+    width: 45%;
+    border: 1px solid;
+    border-color: blue;
+    border-radius: 25px;
+    color: blue;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.Sign-in:hover{
+    background-color: rgb(205, 242, 255);
+}
+.Main-Body{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 755px;
+}
+.body-left{
+    width: 42%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 190px;
+    align-items: flex-start;
+}
+#Heading{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    font-weight: 200;
+    color: #b24020;
+    margin: 0;
+    letter-spacing: 1px;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    /* flex-grow: 1; */
+}
+.Form label{
+    color: black;
+    opacity: 75%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.Form input{
+    height: 25.2px;
+    width: 310.4px;
+    padding: 14px 70px 14px 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.Form input:hover{
+    background-color: rgb(244, 244, 244);
+    outline: 2px black solid;
+}
+.show-button{
+    border: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    top: 45px;
+    left: 345px;
+    color: #0a66c2;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Form a{
+    color: #0a66c2;
+    font-size: 16px;
+    line-height: 1.25px;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    /* top: 20px; */
+}
+.Form a:hover{
+    text-decoration: underline;
+}
+.Sign-in-button{
+    height: 48px;
+    width: 405.4px;
+    padding: 12px 24px;
+    margin: 8px 0;
+    border: 0.8px solid;
+    border-radius: 25px;
+    background-color: #0a66c2;
+    position: relative;
+    top: 30px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 15px;
+}
+.Sign-in-button:hover{
+    background-color: #0756a4;
+}
+.divider{
+    position: relative;
+    top: 20px;
+    height: 21px;
+    width: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider::after, .divider::before{
+    height: 1px;
+    width: auto;
+    background-color: rgb(0 0 0 / .35);
+    --tw-content: '';
+    content: var(--tw-content);
+    flex-grow: 1;
+}
+.divider p{
+    padding: 0 16px;
+    color: black;
+    font-size: 16px;
+}
+.Footnote{
+    color: rgb(0 0 0 / .6);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.Footnote a{
+    color: #0756a4;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+.Footnote a:hover{
+    text-decoration: underline;
+}
+.Continue-with-google{
+    height: 44px;
+    width: 396.4px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 25px;
+    position: relative;
+    bottom: 20px;
+}
+.Continue-with-google:hover{
+    outline: 1.5px solid black;
+    background-color: rgb(242, 242, 255);
+}
+.Continue-with-google img{
+    position: relative;
+    top: 4px;
+    height: 25px;
+    width: 25px;
+    display: inline;
+}
+.Continue-with-google p{
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    position: relative;
+    top: -4px;
+}
+.Continue-with-google a{
+    text-decoration: none;
+    color: black;
+}
+.New-to-Linkedin{
+    height: 24px;
+    width: 360px;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.New-to-Linkedin:hover{
+    /* outline: 2px solid black; */
+    background-color: rgb(241, 241, 241);
+}
+.New-to-Linkedin a{
+    text-decoration: none;
+    color: black;
+}
+.body-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.body-right img{
+    margin-top: 110px;
+    margin-bottom: 75px;
+    /* height: 100px; */
+    width: 100%;
+    flex-grow: 1;
+}
